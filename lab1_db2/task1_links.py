@@ -33,4 +33,4 @@ for link in next_links:
 tree = ET.ElementTree(root)
 
 
-tree.write(open('data.xml', 'w'), encoding='unicode')
+tree.write(open('task1_data.xml', 'w'), encoding='unicode')
