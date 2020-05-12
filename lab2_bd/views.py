@@ -76,7 +76,6 @@ choice_register = [{
 
 
 def choose_message(messages):
-    print(messages)
     choice_message = [
         {
             'type': 'list',
