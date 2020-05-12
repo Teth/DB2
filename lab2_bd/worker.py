@@ -6,7 +6,7 @@ from storage import Storage, MessageState
 
 
 class Worker:
-    spam_percentage = 0.1
+    spam_percentage = 0.3
     working = False
     storage_manager = None
 
