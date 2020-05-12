@@ -6,7 +6,7 @@ running = True
 is_admin = False
 
 if len(sys.argv) > 1:
-    is_admin = bool(sys.argv[1])
+    is_admin = sys.argv[1] == 'admin'
 
 operations = None
 if is_admin:
